@@ -10,11 +10,14 @@ body {
     flex-direction:column;
     background-color: #1F2937;
 }
-
+.header {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .nav {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .head-logo {
@@ -33,4 +36,58 @@ a {
     display: flex;
     gap: 20px;
     font-weight: lighter;
+}
+
+.title {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+    gap: 25px;
+    min-height: 300px
+}
+
+.welcome {
+    width: 80%;
+}
+
+.welcome > .awesome {
+    font-size: 36px;
+    font-weight:bold;
+    color: #F9FAF8;
+    margin: 0 0 15px 0;
+}
+
+.welcome > .subtext {
+    font-weight: lighter;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 15px 0;
+    flex-wrap: wrap;
+}
+
+.welcome > button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-style: none;
+}
+img {
+    width: 100%;
+    border-radius: 20px;
+    min-width: 80%;
+}
+
+.image {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+    flex: 2 1 auto;
 }
