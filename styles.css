@@ -94,10 +94,12 @@ a {
 
 .item-img > img{
     width: 100%;
-    max-width: 200px;
+    max-width: 210px;
     height: auto;
     border-radius: 20px;
     border: solid #3882F6 3px;
+    box-sizing: border-box;
+
 }
 
 .info {
@@ -109,16 +111,15 @@ a {
     padding-top: 30px;
     min-height: 450px;
     gap: 12px;
-    box-sizing: border-box;
-
 }
 
 .info-content {
     display: flex;
     justify-content: center;
     margin:0;
-    padding: 0;
+    padding:0;
     gap:5%;
+
 }
 
 .item1,
@@ -130,6 +131,8 @@ a {
     align-items: center;
     margin:0;
     padding:0;
+    gap: 10px;
+
 }
 
 .item-text {
