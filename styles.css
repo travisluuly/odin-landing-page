@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     margin:0;
+    background-color: #1F2937
 }
 
 .header, .footer {
@@ -111,6 +112,7 @@ a {
     padding-top: 30px;
     min-height: 450px;
     gap: 12px;
+    background-color: white;
 }
 
 .info-content {
@@ -178,10 +180,9 @@ a {
 .call-to-action {
     height:350px;
     display:flex;
-    margin-left: 12%;
-    margin-right: 12%;
     flex-direction: column;
     justify-content: center;
+    background-color: white;
 }
 
 .signup-container {
@@ -192,6 +193,8 @@ a {
     border-radius: 8px;
     gap: 8%;
     padding: 50px 0px 50px 0px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .signup-text > .signup-header {
