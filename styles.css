@@ -216,3 +216,15 @@ a {
     border: solid white;
     padding: 8px 15px 8px 15px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+}
