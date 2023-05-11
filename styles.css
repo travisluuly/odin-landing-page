@@ -149,3 +149,28 @@ a {
     margin:0;
     padding:0;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 14%;
+    padding-right: 14%;
+    height: 400px;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style:italic;
+    color: #1F2937;
+
+}
+
+.speaker {
+    font-size: 20px;
+    font-weight: bold;   
+    align-self: end;
+}
